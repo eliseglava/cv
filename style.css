@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -7,23 +7,42 @@ header {
     position:fixed;
     top: 0;
     left: 0;
-    background-color:rgb(12, 12, 44);
-    color: rgb(255, 255, 255);
+    background-color:rgb(73, 73, 73);
+    color: rgb(0, 0, 0);
     width: 100%;
-    padding: 8px;
-    border-bottom: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    border-bottom: 5px solid rgb(255, 255, 255);
 }
+
+header a {
+
+    color: black;
+}
+
+header a:hover {
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+
 button {
-    border: 1px solid gold;
+    border: 1px solid rgb(0, 0, 0);
     color: black;
     margin: 5px;
    margin-left: 93%;
 }
 
 h1 {
-    background-color: rgb(255, 255, 255);
-    color: rgb(12, 12, 44);
 
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+
+}
+
+.image {
+    display: flex;
+    justify-content: center;
 }
 
 main {
@@ -31,21 +50,33 @@ main {
 }
 
 h2 {
-    color: rgb(12, 12, 44);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+h2 a {
+
+    color: white;
 }
 
 .box {
-    display: flex 
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    
 }
 
 .item {
     width: 600px;
-    height: 150px;
-    background-color: rgb(12, 12, 44);
+    height: 200px;
+    background-color: rgb(73, 73, 73);
     color: white;
     border: 1px solid black;
     padding: 5px;
     margin: 10px;
+    
 }
 
 .workplace {
@@ -63,7 +94,13 @@ h2 {
 }
 
 .info {
-    background-color: rgb(255, 255, 255);
-    color: rgb(12, 12, 44);
-    
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
 }
+
+.kontaktinfo {
+    color: white;
+    text-align: center;
+}
+
